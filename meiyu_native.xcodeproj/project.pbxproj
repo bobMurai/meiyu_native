@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C660D7BC258686A900F7EFB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7BB258686A900F7EFB0 /* AppDelegate.swift */; };
+		C660D7BE258686A900F7EFB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7BD258686A900F7EFB0 /* SceneDelegate.swift */; };
+		C660D7C0258686A900F7EFB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7BF258686A900F7EFB0 /* ContentView.swift */; };
+		C660D7C3258686A900F7EFB0 /* meiyu_native.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C660D7C1258686A900F7EFB0 /* meiyu_native.xcdatamodeld */; };
+		C660D7C5258686AB00F7EFB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C660D7C4258686AB00F7EFB0 /* Assets.xcassets */; };
+		C660D7C8258686AB00F7EFB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C660D7C7258686AB00F7EFB0 /* Preview Assets.xcassets */; };
+		C660D7CB258686AB00F7EFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C660D7C9258686AB00F7EFB0 /* LaunchScreen.storyboard */; };
+		C660D7D6258686AB00F7EFB0 /* meiyu_nativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7D5258686AB00F7EFB0 /* meiyu_nativeTests.swift */; };
+		C660D7E1258686AB00F7EFB0 /* meiyu_nativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7E0258686AB00F7EFB0 /* meiyu_nativeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C660D7D2258686AB00F7EFB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C660D7B0258686A900F7EFB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C660D7B7258686A900F7EFB0;
+			remoteInfo = meiyu_native;
+		};
+		C660D7DD258686AB00F7EFB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C660D7B0258686A900F7EFB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C660D7B7258686A900F7EFB0;
+			remoteInfo = meiyu_native;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C660D7B8258686A900F7EFB0 /* meiyu_native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meiyu_native.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C660D7BB258686A900F7EFB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C660D7BD258686A900F7EFB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C660D7BF258686A900F7EFB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C660D7C2258686A900F7EFB0 /* meiyu_native.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = meiyu_native.xcdatamodel; sourceTree = "<group>"; };
+		C660D7C4258686AB00F7EFB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C660D7C7258686AB00F7EFB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C660D7CA258686AB00F7EFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C660D7CC258686AB00F7EFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C660D7D1258686AB00F7EFB0 /* meiyu_nativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiyu_nativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C660D7D5258686AB00F7EFB0 /* meiyu_nativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meiyu_nativeTests.swift; sourceTree = "<group>"; };
+		C660D7D7258686AB00F7EFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C660D7DC258686AB00F7EFB0 /* meiyu_nativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiyu_nativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C660D7E0258686AB00F7EFB0 /* meiyu_nativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meiyu_nativeUITests.swift; sourceTree = "<group>"; };
+		C660D7E2258686AB00F7EFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C660D7B5258686A900F7EFB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C660D7CE258686AB00F7EFB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C660D7D9258686AB00F7EFB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C660D7AF258686A900F7EFB0 = {
+			isa = PBXGroup;
+			children = (
+				C660D7BA258686A900F7EFB0 /* meiyu_native */,
+				C660D7D4258686AB00F7EFB0 /* meiyu_nativeTests */,
+				C660D7DF258686AB00F7EFB0 /* meiyu_nativeUITests */,
+				C660D7B9258686A900F7EFB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C660D7B9258686A900F7EFB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C660D7B8258686A900F7EFB0 /* meiyu_native.app */,
+				C660D7D1258686AB00F7EFB0 /* meiyu_nativeTests.xctest */,
+				C660D7DC258686AB00F7EFB0 /* meiyu_nativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C660D7BA258686A900F7EFB0 /* meiyu_native */ = {
+			isa = PBXGroup;
+			children = (
+				C660D7BB258686A900F7EFB0 /* AppDelegate.swift */,
+				C660D7BD258686A900F7EFB0 /* SceneDelegate.swift */,
+				C660D7BF258686A900F7EFB0 /* ContentView.swift */,
+				C660D7C4258686AB00F7EFB0 /* Assets.xcassets */,
+				C660D7C9258686AB00F7EFB0 /* LaunchScreen.storyboard */,
+				C660D7CC258686AB00F7EFB0 /* Info.plist */,
+				C660D7C1258686A900F7EFB0 /* meiyu_native.xcdatamodeld */,
+				C660D7C6258686AB00F7EFB0 /* Preview Content */,
+			);
+			path = meiyu_native;
+			sourceTree = "<group>";
+		};
+		C660D7C6258686AB00F7EFB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C660D7C7258686AB00F7EFB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C660D7D4258686AB00F7EFB0 /* meiyu_nativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C660D7D5258686AB00F7EFB0 /* meiyu_nativeTests.swift */,
+				C660D7D7258686AB00F7EFB0 /* Info.plist */,
+			);
+			path = meiyu_nativeTests;
+			sourceTree = "<group>";
+		};
+		C660D7DF258686AB00F7EFB0 /* meiyu_nativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C660D7E0258686AB00F7EFB0 /* meiyu_nativeUITests.swift */,
+				C660D7E2258686AB00F7EFB0 /* Info.plist */,
+			);
+			path = meiyu_nativeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C660D7B7258686A900F7EFB0 /* meiyu_native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C660D7E5258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_native" */;
+			buildPhases = (
+				C660D7B4258686A900F7EFB0 /* Sources */,
+				C660D7B5258686A900F7EFB0 /* Frameworks */,
+				C660D7B6258686A900F7EFB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meiyu_native;
+			productName = meiyu_native;
+			productReference = C660D7B8258686A900F7EFB0 /* meiyu_native.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C660D7D0258686AB00F7EFB0 /* meiyu_nativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C660D7E8258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_nativeTests" */;
+			buildPhases = (
+				C660D7CD258686AB00F7EFB0 /* Sources */,
+				C660D7CE258686AB00F7EFB0 /* Frameworks */,
+				C660D7CF258686AB00F7EFB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C660D7D3258686AB00F7EFB0 /* PBXTargetDependency */,
+			);
+			name = meiyu_nativeTests;
+			productName = meiyu_nativeTests;
+			productReference = C660D7D1258686AB00F7EFB0 /* meiyu_nativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C660D7DB258686AB00F7EFB0 /* meiyu_nativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C660D7EB258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_nativeUITests" */;
+			buildPhases = (
+				C660D7D8258686AB00F7EFB0 /* Sources */,
+				C660D7D9258686AB00F7EFB0 /* Frameworks */,
+				C660D7DA258686AB00F7EFB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C660D7DE258686AB00F7EFB0 /* PBXTargetDependency */,
+			);
+			name = meiyu_nativeUITests;
+			productName = meiyu_nativeUITests;
+			productReference = C660D7DC258686AB00F7EFB0 /* meiyu_nativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C660D7B0258686A900F7EFB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C660D7B7258686A900F7EFB0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C660D7D0258686AB00F7EFB0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C660D7B7258686A900F7EFB0;
+					};
+					C660D7DB258686AB00F7EFB0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C660D7B7258686A900F7EFB0;
+					};
+				};
+			};
+			buildConfigurationList = C660D7B3258686A900F7EFB0 /* Build configuration list for PBXProject "meiyu_native" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C660D7AF258686A900F7EFB0;
+			productRefGroup = C660D7B9258686A900F7EFB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C660D7B7258686A900F7EFB0 /* meiyu_native */,
+				C660D7D0258686AB00F7EFB0 /* meiyu_nativeTests */,
+				C660D7DB258686AB00F7EFB0 /* meiyu_nativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C660D7B6258686A900F7EFB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C660D7CB258686AB00F7EFB0 /* LaunchScreen.storyboard in Resources */,
+				C660D7C8258686AB00F7EFB0 /* Preview Assets.xcassets in Resources */,
+				C660D7C5258686AB00F7EFB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C660D7CF258686AB00F7EFB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C660D7DA258686AB00F7EFB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C660D7B4258686A900F7EFB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C660D7C3258686A900F7EFB0 /* meiyu_native.xcdatamodeld in Sources */,
+				C660D7BC258686A900F7EFB0 /* AppDelegate.swift in Sources */,
+				C660D7BE258686A900F7EFB0 /* SceneDelegate.swift in Sources */,
+				C660D7C0258686A900F7EFB0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C660D7CD258686AB00F7EFB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C660D7D6258686AB00F7EFB0 /* meiyu_nativeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C660D7D8258686AB00F7EFB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C660D7E1258686AB00F7EFB0 /* meiyu_nativeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C660D7D3258686AB00F7EFB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C660D7B7258686A900F7EFB0 /* meiyu_native */;
+			targetProxy = C660D7D2258686AB00F7EFB0 /* PBXContainerItemProxy */;
+		};
+		C660D7DE258686AB00F7EFB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C660D7B7258686A900F7EFB0 /* meiyu_native */;
+			targetProxy = C660D7DD258686AB00F7EFB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C660D7C9258686AB00F7EFB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C660D7CA258686AB00F7EFB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C660D7E3258686AB00F7EFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C660D7E4258686AB00F7EFB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C660D7E6258686AB00F7EFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"meiyu_native/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WMA3623AJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = meiyu_native/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meiyu.co.jp.meiyu-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C660D7E7258686AB00F7EFB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"meiyu_native/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WMA3623AJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = meiyu_native/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meiyu.co.jp.meiyu-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C660D7E9258686AB00F7EFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WMA3623AJ;
+				INFOPLIST_FILE = meiyu_nativeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meiyu.co.jp.meiyu-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meiyu_native.app/meiyu_native";
+			};
+			name = Debug;
+		};
+		C660D7EA258686AB00F7EFB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WMA3623AJ;
+				INFOPLIST_FILE = meiyu_nativeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meiyu.co.jp.meiyu-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meiyu_native.app/meiyu_native";
+			};
+			name = Release;
+		};
+		C660D7EC258686AB00F7EFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WMA3623AJ;
+				INFOPLIST_FILE = meiyu_nativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meiyu.co.jp.meiyu-nativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meiyu_native;
+			};
+			name = Debug;
+		};
+		C660D7ED258686AB00F7EFB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WMA3623AJ;
+				INFOPLIST_FILE = meiyu_nativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meiyu.co.jp.meiyu-nativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meiyu_native;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C660D7B3258686A900F7EFB0 /* Build configuration list for PBXProject "meiyu_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C660D7E3258686AB00F7EFB0 /* Debug */,
+				C660D7E4258686AB00F7EFB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C660D7E5258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C660D7E6258686AB00F7EFB0 /* Debug */,
+				C660D7E7258686AB00F7EFB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C660D7E8258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_nativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C660D7E9258686AB00F7EFB0 /* Debug */,
+				C660D7EA258686AB00F7EFB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C660D7EB258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_nativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C660D7EC258686AB00F7EFB0 /* Debug */,
+				C660D7ED258686AB00F7EFB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C660D7C1258686A900F7EFB0 /* meiyu_native.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C660D7C2258686A900F7EFB0 /* meiyu_native.xcdatamodel */,
+			);
+			currentVersion = C660D7C2258686A900F7EFB0 /* meiyu_native.xcdatamodel */;
+			path = meiyu_native.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C660D7B0258686A900F7EFB0 /* Project object */;
+}
