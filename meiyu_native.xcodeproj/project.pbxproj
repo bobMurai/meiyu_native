@@ -16,6 +16,13 @@
 		C660D7CB258686AB00F7EFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C660D7C9258686AB00F7EFB0 /* LaunchScreen.storyboard */; };
 		C660D7D6258686AB00F7EFB0 /* meiyu_nativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7D5258686AB00F7EFB0 /* meiyu_nativeTests.swift */; };
 		C660D7E1258686AB00F7EFB0 /* meiyu_nativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7E0258686AB00F7EFB0 /* meiyu_nativeUITests.swift */; };
+		C660D7F62586910500F7EFB0 /* TalkRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7F52586910500F7EFB0 /* TalkRoom.swift */; };
+		C660D7FB2586913200F7EFB0 /* TalkHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7FA2586913200F7EFB0 /* TalkHeader.swift */; };
+		C660D8052586914E00F7EFB0 /* TalkFromSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D8042586914E00F7EFB0 /* TalkFromSelf.swift */; };
+		C660D80A2586916800F7EFB0 /* TalkFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D8092586916800F7EFB0 /* TalkFooter.swift */; };
+		C660D80F2586918F00F7EFB0 /* TalkFromFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D80E2586918F00F7EFB0 /* TalkFromFriend.swift */; };
+		C660D8142586937A00F7EFB0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D8132586937A00F7EFB0 /* Color+Extension.swift */; };
+		C660D81F2587AEB100F7EFB0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D81E2587AEB100F7EFB0 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		C660D7DC258686AB00F7EFB0 /* meiyu_nativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiyu_nativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C660D7E0258686AB00F7EFB0 /* meiyu_nativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meiyu_nativeUITests.swift; sourceTree = "<group>"; };
 		C660D7E2258686AB00F7EFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C660D7F52586910500F7EFB0 /* TalkRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkRoom.swift; sourceTree = "<group>"; };
+		C660D7FA2586913200F7EFB0 /* TalkHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkHeader.swift; sourceTree = "<group>"; };
+		C660D8042586914E00F7EFB0 /* TalkFromSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkFromSelf.swift; sourceTree = "<group>"; };
+		C660D8092586916800F7EFB0 /* TalkFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkFooter.swift; sourceTree = "<group>"; };
+		C660D80E2586918F00F7EFB0 /* TalkFromFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkFromFriend.swift; sourceTree = "<group>"; };
+		C660D8132586937A00F7EFB0 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		C660D81E2587AEB100F7EFB0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +115,16 @@
 		C660D7BA258686A900F7EFB0 /* meiyu_native */ = {
 			isa = PBXGroup;
 			children = (
+				C660D7F1258688D600F7EFB0 /* Extension */,
 				C660D7BB258686A900F7EFB0 /* AppDelegate.swift */,
 				C660D7BD258686A900F7EFB0 /* SceneDelegate.swift */,
 				C660D7BF258686A900F7EFB0 /* ContentView.swift */,
+				C660D7F52586910500F7EFB0 /* TalkRoom.swift */,
+				C660D7FA2586913200F7EFB0 /* TalkHeader.swift */,
+				C660D8042586914E00F7EFB0 /* TalkFromSelf.swift */,
+				C660D8092586916800F7EFB0 /* TalkFooter.swift */,
+				C660D80E2586918F00F7EFB0 /* TalkFromFriend.swift */,
+				C660D81E2587AEB100F7EFB0 /* Util.swift */,
 				C660D7C4258686AB00F7EFB0 /* Assets.xcassets */,
 				C660D7C9258686AB00F7EFB0 /* LaunchScreen.storyboard */,
 				C660D7CC258686AB00F7EFB0 /* Info.plist */,
@@ -137,6 +158,14 @@
 				C660D7E2258686AB00F7EFB0 /* Info.plist */,
 			);
 			path = meiyu_nativeUITests;
+			sourceTree = "<group>";
+		};
+		C660D7F1258688D600F7EFB0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C660D8132586937A00F7EFB0 /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +298,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C660D81F2587AEB100F7EFB0 /* Util.swift in Sources */,
+				C660D7F62586910500F7EFB0 /* TalkRoom.swift in Sources */,
 				C660D7C3258686A900F7EFB0 /* meiyu_native.xcdatamodeld in Sources */,
+				C660D7FB2586913200F7EFB0 /* TalkHeader.swift in Sources */,
 				C660D7BC258686A900F7EFB0 /* AppDelegate.swift in Sources */,
 				C660D7BE258686A900F7EFB0 /* SceneDelegate.swift in Sources */,
 				C660D7C0258686A900F7EFB0 /* ContentView.swift in Sources */,
+				C660D80A2586916800F7EFB0 /* TalkFooter.swift in Sources */,
+				C660D8052586914E00F7EFB0 /* TalkFromSelf.swift in Sources */,
+				C660D8142586937A00F7EFB0 /* Color+Extension.swift in Sources */,
+				C660D80F2586918F00F7EFB0 /* TalkFromFriend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
