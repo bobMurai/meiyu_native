@@ -23,6 +23,7 @@
 		C660D80F2586918F00F7EFB0 /* TalkFromFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D80E2586918F00F7EFB0 /* TalkFromFriend.swift */; };
 		C660D8142586937A00F7EFB0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D8132586937A00F7EFB0 /* Color+Extension.swift */; };
 		C660D81F2587AEB100F7EFB0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D81E2587AEB100F7EFB0 /* Util.swift */; };
+		C6830A3425892E9D0051284F /* ChatsEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6830A3325892E9D0051284F /* ChatsEntity+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		C660D80E2586918F00F7EFB0 /* TalkFromFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkFromFriend.swift; sourceTree = "<group>"; };
 		C660D8132586937A00F7EFB0 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C660D81E2587AEB100F7EFB0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		C6830A3325892E9D0051284F /* ChatsEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatsEntity+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				C660D8132586937A00F7EFB0 /* Color+Extension.swift */,
+				C6830A3325892E9D0051284F /* ChatsEntity+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			files = (
 				C660D81F2587AEB100F7EFB0 /* Util.swift in Sources */,
 				C660D7F62586910500F7EFB0 /* TalkRoom.swift in Sources */,
+				C6830A3425892E9D0051284F /* ChatsEntity+Extension.swift in Sources */,
 				C660D7C3258686A900F7EFB0 /* meiyu_native.xcdatamodeld in Sources */,
 				C660D7FB2586913200F7EFB0 /* TalkHeader.swift in Sources */,
 				C660D7BC258686A900F7EFB0 /* AppDelegate.swift in Sources */,
