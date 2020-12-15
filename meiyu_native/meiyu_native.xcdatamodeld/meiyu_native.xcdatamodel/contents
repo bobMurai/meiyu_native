@@ -7,6 +7,8 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="user_id" optional="YES" attributeType="String"/>
+        <relationship name="friend_relation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FriendRelationsEntity" inverseName="chats" inverseEntity="FriendRelationsEntity"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UsersEntity" inverseName="chats" inverseEntity="UsersEntity"/>
     </entity>
     <entity name="FriendRelationDetailsEntity" representedClassName="FriendRelationDetailsEntity" syncable="YES" codeGenerationType="class">
         <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -15,11 +17,15 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="user_id" optional="YES" attributeType="String"/>
+        <relationship name="friend_relation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FriendRelationsEntity" inverseName="friend_relation_details" inverseEntity="FriendRelationsEntity"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UsersEntity" inverseName="friend_relation_details" inverseEntity="UsersEntity"/>
     </entity>
     <entity name="FriendRelationsEntity" representedClassName="FriendRelationsEntity" syncable="YES" codeGenerationType="class">
         <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="chats" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ChatsEntity" inverseName="friend_relation" inverseEntity="ChatsEntity"/>
+        <relationship name="friend_relation_details" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FriendRelationDetailsEntity" inverseName="friend_relation" inverseEntity="FriendRelationDetailsEntity"/>
     </entity>
     <entity name="UsersEntity" representedClassName="UsersEntity" syncable="YES" codeGenerationType="class">
         <attribute name="birthday" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -33,11 +39,13 @@
         <attribute name="social_position" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="user_status" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="chats" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ChatsEntity" inverseName="user" inverseEntity="ChatsEntity"/>
+        <relationship name="friend_relation_details" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FriendRelationDetailsEntity" inverseName="user" inverseEntity="FriendRelationDetailsEntity"/>
     </entity>
     <elements>
-        <element name="UsersEntity" positionX="-182.72265625" positionY="-35.6875" width="148.1484375" height="208"/>
-        <element name="FriendRelationDetailsEntity" positionX="44.8203125" positionY="299.234375" width="128" height="133"/>
-        <element name="FriendRelationsEntity" positionX="227.7734375" positionY="117.0625" width="128" height="88"/>
-        <element name="ChatsEntity" positionX="340.9765625" positionY="-44.16796875" width="128" height="133"/>
+        <element name="UsersEntity" positionX="-358.578125" positionY="-0.7265625" width="148.1484375" height="238"/>
+        <element name="FriendRelationDetailsEntity" positionX="44.8203125" positionY="299.234375" width="128" height="163"/>
+        <element name="FriendRelationsEntity" positionX="570.859375" positionY="240.4140625" width="128" height="118"/>
+        <element name="ChatsEntity" positionX="390.80078125" positionY="-222.81640625" width="128" height="163"/>
     </elements>
 </model>
