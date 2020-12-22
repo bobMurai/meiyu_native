@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42070CEB03988CABF8C8365C /* Pods_meiyu_native_meiyu_nativeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2AE631B6E23B6E7E4B274F /* Pods_meiyu_native_meiyu_nativeUITests.framework */; };
+		6502275E0C26B2425A187989 /* Pods_meiyu_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62AA782D13E7F0E32C1A41E /* Pods_meiyu_native.framework */; };
 		C660D7BC258686A900F7EFB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7BB258686A900F7EFB0 /* AppDelegate.swift */; };
 		C660D7BE258686A900F7EFB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7BD258686A900F7EFB0 /* SceneDelegate.swift */; };
 		C660D7C0258686A900F7EFB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D7BF258686A900F7EFB0 /* ContentView.swift */; };
@@ -24,6 +26,8 @@
 		C660D8142586937A00F7EFB0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D8132586937A00F7EFB0 /* Color+Extension.swift */; };
 		C660D81F2587AEB100F7EFB0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660D81E2587AEB100F7EFB0 /* Util.swift */; };
 		C6830A3425892E9D0051284F /* ChatsEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6830A3325892E9D0051284F /* ChatsEntity+Extension.swift */; };
+		C6830A44258BBBD10051284F /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6830A43258BBBD10051284F /* ApiClient.swift */; };
+		E7AD3A72D46EB337C00F03F3 /* Pods_meiyu_nativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA69F9A8C39E92066C9F040C /* Pods_meiyu_nativeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F9A43B432774BAAF34A1A29 /* Pods-meiyu_native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiyu_native.debug.xcconfig"; path = "Target Support Files/Pods-meiyu_native/Pods-meiyu_native.debug.xcconfig"; sourceTree = "<group>"; };
+		9EECAA6EB80CB9E2A8D6DCAE /* Pods-meiyu_native-meiyu_nativeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiyu_native-meiyu_nativeUITests.release.xcconfig"; path = "Target Support Files/Pods-meiyu_native-meiyu_nativeUITests/Pods-meiyu_native-meiyu_nativeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C660D7B8258686A900F7EFB0 /* meiyu_native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meiyu_native.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C660D7BB258686A900F7EFB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C660D7BD258686A900F7EFB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +73,14 @@
 		C660D8132586937A00F7EFB0 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C660D81E2587AEB100F7EFB0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		C6830A3325892E9D0051284F /* ChatsEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatsEntity+Extension.swift"; sourceTree = "<group>"; };
+		C6830A43258BBBD10051284F /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		CA69F9A8C39E92066C9F040C /* Pods_meiyu_nativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meiyu_nativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAC376BAA8029A150410408 /* Pods-meiyu_native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiyu_native.release.xcconfig"; path = "Target Support Files/Pods-meiyu_native/Pods-meiyu_native.release.xcconfig"; sourceTree = "<group>"; };
+		D4B1D50F685A7469CD06DDB8 /* Pods-meiyu_native-meiyu_nativeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiyu_native-meiyu_nativeUITests.debug.xcconfig"; path = "Target Support Files/Pods-meiyu_native-meiyu_nativeUITests/Pods-meiyu_native-meiyu_nativeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E62AA782D13E7F0E32C1A41E /* Pods_meiyu_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meiyu_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94E1734406C2A31D7A24DED /* Pods-meiyu_nativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiyu_nativeTests.release.xcconfig"; path = "Target Support Files/Pods-meiyu_nativeTests/Pods-meiyu_nativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA00FD185E269CDD5BCEE884 /* Pods-meiyu_nativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiyu_nativeTests.debug.xcconfig"; path = "Target Support Files/Pods-meiyu_nativeTests/Pods-meiyu_nativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2AE631B6E23B6E7E4B274F /* Pods_meiyu_native_meiyu_nativeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meiyu_native_meiyu_nativeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6502275E0C26B2425A187989 /* Pods_meiyu_native.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AD3A72D46EB337C00F03F3 /* Pods_meiyu_nativeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42070CEB03988CABF8C8365C /* Pods_meiyu_native_meiyu_nativeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		408AD84269091D8040A6D927 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F9A43B432774BAAF34A1A29 /* Pods-meiyu_native.debug.xcconfig */,
+				CEAC376BAA8029A150410408 /* Pods-meiyu_native.release.xcconfig */,
+				D4B1D50F685A7469CD06DDB8 /* Pods-meiyu_native-meiyu_nativeUITests.debug.xcconfig */,
+				9EECAA6EB80CB9E2A8D6DCAE /* Pods-meiyu_native-meiyu_nativeUITests.release.xcconfig */,
+				FA00FD185E269CDD5BCEE884 /* Pods-meiyu_nativeTests.debug.xcconfig */,
+				F94E1734406C2A31D7A24DED /* Pods-meiyu_nativeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F4F6A8217CF53154EC14AF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62AA782D13E7F0E32C1A41E /* Pods_meiyu_native.framework */,
+				FD2AE631B6E23B6E7E4B274F /* Pods_meiyu_native_meiyu_nativeUITests.framework */,
+				CA69F9A8C39E92066C9F040C /* Pods_meiyu_nativeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C660D7AF258686A900F7EFB0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +141,8 @@
 				C660D7D4258686AB00F7EFB0 /* meiyu_nativeTests */,
 				C660D7DF258686AB00F7EFB0 /* meiyu_nativeUITests */,
 				C660D7B9258686A900F7EFB0 /* Products */,
+				408AD84269091D8040A6D927 /* Pods */,
+				8F4F6A8217CF53154EC14AF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +161,7 @@
 			children = (
 				C660D7F1258688D600F7EFB0 /* Extension */,
 				C660D7BB258686A900F7EFB0 /* AppDelegate.swift */,
+				C6830A43258BBBD10051284F /* ApiClient.swift */,
 				C660D7BD258686A900F7EFB0 /* SceneDelegate.swift */,
 				C660D7BF258686A900F7EFB0 /* ContentView.swift */,
 				C660D7F52586910500F7EFB0 /* TalkRoom.swift */,
@@ -178,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C660D7E5258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_native" */;
 			buildPhases = (
+				0553E656A4F55A65471AB144 /* [CP] Check Pods Manifest.lock */,
 				C660D7B4258686A900F7EFB0 /* Sources */,
 				C660D7B5258686A900F7EFB0 /* Frameworks */,
 				C660D7B6258686A900F7EFB0 /* Resources */,
+				24B3AD2D6FE7C1E6BFC45D82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C660D7E8258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_nativeTests" */;
 			buildPhases = (
+				7A91D2EECC0D644ED4CC5AAD /* [CP] Check Pods Manifest.lock */,
 				C660D7CD258686AB00F7EFB0 /* Sources */,
 				C660D7CE258686AB00F7EFB0 /* Frameworks */,
 				C660D7CF258686AB00F7EFB0 /* Resources */,
@@ -213,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C660D7EB258686AB00F7EFB0 /* Build configuration list for PBXNativeTarget "meiyu_nativeUITests" */;
 			buildPhases = (
+				D0EB36E839383F831F281EEF /* [CP] Check Pods Manifest.lock */,
 				C660D7D8258686AB00F7EFB0 /* Sources */,
 				C660D7D9258686AB00F7EFB0 /* Frameworks */,
 				C660D7DA258686AB00F7EFB0 /* Resources */,
+				5E31A9ECFC196C64E7DA7F61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +344,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0553E656A4F55A65471AB144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meiyu_native-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24B3AD2D6FE7C1E6BFC45D82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meiyu_native/Pods-meiyu_native-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meiyu_native/Pods-meiyu_native-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meiyu_native/Pods-meiyu_native-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E31A9ECFC196C64E7DA7F61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meiyu_native-meiyu_nativeUITests/Pods-meiyu_native-meiyu_nativeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meiyu_native-meiyu_nativeUITests/Pods-meiyu_native-meiyu_nativeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meiyu_native-meiyu_nativeUITests/Pods-meiyu_native-meiyu_nativeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A91D2EECC0D644ED4CC5AAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meiyu_nativeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EB36E839383F831F281EEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meiyu_native-meiyu_nativeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C660D7B4258686A900F7EFB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -309,6 +460,7 @@
 				C660D7BC258686A900F7EFB0 /* AppDelegate.swift in Sources */,
 				C660D7BE258686A900F7EFB0 /* SceneDelegate.swift in Sources */,
 				C660D7C0258686A900F7EFB0 /* ContentView.swift in Sources */,
+				C6830A44258BBBD10051284F /* ApiClient.swift in Sources */,
 				C660D80A2586916800F7EFB0 /* TalkFooter.swift in Sources */,
 				C660D8052586914E00F7EFB0 /* TalkFromSelf.swift in Sources */,
 				C660D8142586937A00F7EFB0 /* Color+Extension.swift in Sources */,
@@ -477,6 +629,7 @@
 		};
 		C660D7E6258686AB00F7EFB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9A43B432774BAAF34A1A29 /* Pods-meiyu_native.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +651,7 @@
 		};
 		C660D7E7258686AB00F7EFB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAC376BAA8029A150410408 /* Pods-meiyu_native.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,6 +673,7 @@
 		};
 		C660D7E9258686AB00F7EFB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA00FD185E269CDD5BCEE884 /* Pods-meiyu_nativeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +696,7 @@
 		};
 		C660D7EA258686AB00F7EFB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94E1734406C2A31D7A24DED /* Pods-meiyu_nativeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,6 +719,7 @@
 		};
 		C660D7EC258686AB00F7EFB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B1D50F685A7469CD06DDB8 /* Pods-meiyu_native-meiyu_nativeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +740,7 @@
 		};
 		C660D7ED258686AB00F7EFB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EECAA6EB80CB9E2A8D6DCAE /* Pods-meiyu_native-meiyu_nativeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

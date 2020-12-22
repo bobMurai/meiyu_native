@@ -8,23 +8,27 @@
 
 import CoreData
 import SwiftUI
+import SwiftyJSON
 
 extension ChatsEntity {
     
     static func create(in managedObjectContext: NSManagedObjectContext,
-                       id: String,
-                       friend_relation_id: String,
-                       user_id: String,
-                       content: String,
-                       created_at: Date,
-                       updated_at: Date){
+                       json: Any
+//                       id: String,
+//                       friend_relation_id: String,
+//                       user_id: String,
+//                       content: String,
+//                       created_at: Date,
+//                       updated_at: Date
+    ){
         let chat = self.init(context: managedObjectContext)
-        chat.id = id
-        chat.friend_relation_id = friend_relation_id
-        chat.user_id = user_id
-        chat.content = content
-        chat.created_at = created_at
-        chat.updated_at = updated_at
+        let dataJson = JSON(json)
+        chat.id = dataJson["id"].string
+        chat.friend_relation_id = dataJson["friend_relation_id"].string
+        chat.user_id = dataJson["user_id"].string
+        chat.content = dataJson["content"].string
+        chat.created_at = Util.dateFromString(string: dataJson["created_at"].string!, format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
+        chat.updated_at = Util.dateFromString(string: dataJson["updated_at"].string!, format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
         
         do {
             try  managedObjectContext.save()
@@ -33,6 +37,7 @@ extension ChatsEntity {
             fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
         }
     }
+}
 
     
 //

@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct TalkRoom: View {
-    let friend_relation_id: String
+    var friend_relation_id: String
     //var chats: []
     
     init(friend_relation_id: String){
         self.friend_relation_id = friend_relation_id
+        print(self.friend_relation_id)
         //ここでfriend_relation_idから紐づくチャット履歴を取得する。
     }
     
@@ -28,13 +29,13 @@ struct TalkRoom: View {
             
             Spacer()
             
-            TalkFooter()
+            TalkFooter(friend_relation_id: self.friend_relation_id)
         }
     }
 }
 
 struct TalkRoom_Previews: PreviewProvider {
     static var previews: some View {
-        TalkRoom(friend_relation_id: "")
+        TalkRoom(friend_relation_id: "1")
     }
 }

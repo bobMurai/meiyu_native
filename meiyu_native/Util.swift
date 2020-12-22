@@ -13,6 +13,8 @@ struct Util{
         let formatter: DateFormatter = DateFormatter()
         formatter.calendar = Calendar(identifier: .gregorian)
         formatter.dateFormat = format
+        print(format)
+        print(string)
         return formatter.date(from: string)!
     }
 
